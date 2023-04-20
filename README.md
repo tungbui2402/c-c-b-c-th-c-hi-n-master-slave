@@ -75,3 +75,5 @@ Slave_IO_Running: Yes
 Slave_SQL_Running: Yes
 ```
 Nếu hiện 3 dòng như trên thì là thành công.
+## Test
+- Tạo 1 database ở máy master, nếu ở bên máy slave khi dùng lệnh `show databases;' mà có database đó thì là thành công.
