@@ -87,4 +87,4 @@ Chúng ta cần thêm mật khẩu vào tài khoản trên ở máy slave
 
 - Sau khi thành công thì chúng ta đã có thể đăng nhập tài khoản truy cập ở slave rồi.
 ## Test
-- Tạo 1 database ở máy master, nếu ở bên máy slave khi dùng lệnh `show databases;' mà có database đó thì là thành công.
+- Tạo 1 database ở máy master, nếu ở bên máy slave khi dùng lệnh `show databases;` mà có database đó thì là thành công.
