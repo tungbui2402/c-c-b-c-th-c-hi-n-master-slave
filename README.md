@@ -2,8 +2,7 @@
 ## 1. Thông tin và cài đặt
 - Ip master: 10.0.9.101
 - Ip slave: 10.0.9.102
-
-mysql  Ver 8.0.32-0ubuntu0.20.04.2 for Linux on x86_64 ((Ubuntu))
+- mysql  Version 8.0.32-0ubuntu0.20.04.2
 ### Cài mysql server trên cả 2 máy
 ```
 sudo apt update
