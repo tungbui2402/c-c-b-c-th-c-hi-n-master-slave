@@ -1,8 +1,8 @@
-## Các bước thực hiện master-slave
-### 1. Thông tin và cài đặt
+# Các bước thực hiện master-slave
+## 1. Thông tin và cài đặt
 - Ip master: 10.0.9.101
 - Ip slave: 10.0.9.102
-#### Cài mysql server trên cả 2 máy
+### Cài mysql server trên cả 2 máy
 `sudo apt update`
 
 `sudo apt upgrade`
@@ -25,4 +25,6 @@ Sau đó nhập mật khẩu mình cần đặt rồi y liên tục là xong.
 
 `flush privileges;`
 
-`exit;``
+`exit;`
+
+Sau đấy thì chúng ta quay lại mysql_secure_installation rồi nhập mật khẩu cần đặt là xong.
