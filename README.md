@@ -1,1 +1,1 @@
-# c-c-b-c-th-c-hi-n-master-slave
+# các bước thực hiện-master-slave
