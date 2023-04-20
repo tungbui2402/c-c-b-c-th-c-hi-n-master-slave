@@ -8,14 +8,13 @@ sudo apt update
 sudo apt upgrade
 sudo apt install mysql-server
 ```
-
 Sau khi cài đặt xong mysql thì chúng ta tiến hành đặt password cho root
 `sudo mysql_secure_installation`
 Sau đó chọn y để tiếp tục 
 Có 3 level đặt mật khẩu từ 0 là nhỏ nhất cho đến 2 là mạnh nhất, ở đây để cho đơn giản thì chọn 0
-Sau đó nhập mật khẩu mình cần đặt rồi y liên tục là xong.
+Sau đó nhập mật khẩu mình cần đặt rồi yes liên tục là xong.
 #### Trong trường hợp đặt mật khẩu bị lỗi thì:
-- Thoát khỏi mysql_secure_installation bằng cách dùng phím ctrl + z
+- Thoát khỏi mysql_secure_installation bằng cách dùng phím ctrl + z(chỉ thoát ra khi xác nhận chọn mật khẩu, còn khi đang nhập mật khẩu thì không thể thoát ra được)
 - Sau đấy ta dùng ` sudo mysql -u root -p` ( dòng mật khẩu ấn enter là được)
 - Sau đấy ta nhập theo thứ tự:
  ```
@@ -75,5 +74,6 @@ Slave_IO_Running: Yes
 Slave_SQL_Running: Yes
 ```
 Nếu hiện 3 dòng như trên thì là thành công.
+#### Thiết lập
 ## Test
 - Tạo 1 database ở máy master, nếu ở bên máy slave khi dùng lệnh `show databases;' mà có database đó thì là thành công.
