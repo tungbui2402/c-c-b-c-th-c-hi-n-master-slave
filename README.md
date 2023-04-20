@@ -78,11 +78,11 @@ Nếu hiện 3 dòng như trên thì là thành công.
 Sau khi cài xong master-slave mà muốn vào tài khoản trên ở máy slave nhưng bị lỗi error 1045 thì cần làm gì
 Chúng ta cần thêm mật khẩu vào tài khoản trên ở máy slave
 - Đầu tiên chúng ta đăng nhập vào mysql bằng tài khoản root:
-- 
+
 `sudo mysql -u root -p`
 
 - Sau khi đăng nhập vào root xong thì chúng ta tiến hành đặt mật khẩu bằng lệnh:
-- 
+
 ` alter view 'tung1'@'%' identified by 'newpassword';`
 
 - Sau khi thành công thì chúng ta đã có thể đăng nhập tài khoản truy cập ở slave rồi.
