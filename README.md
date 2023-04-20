@@ -15,7 +15,7 @@ Có 3 level đặt mật khẩu từ 0 là nhỏ nhất cho đến 2 là mạnh 
 Sau đó nhập mật khẩu mình cần đặt rồi yes liên tục là xong.
 #### Trong trường hợp đặt mật khẩu bị lỗi thì:
 - Thoát khỏi mysql_secure_installation bằng cách dùng phím ctrl + z(chỉ thoát ra khi xác nhận chọn mật khẩu, còn khi đang nhập mật khẩu thì không thể thoát ra được)
-- Sau đấy ta dùng ` sudo mysql -u root -p` ( dòng mật khẩu ấn enter là được)
+- Sau đấy ta dùng `sudo mysql -u root -p` ( dòng mật khẩu ấn enter là được)
 - Sau đấy ta nhập theo thứ tự:
  ```
 use mysql;
