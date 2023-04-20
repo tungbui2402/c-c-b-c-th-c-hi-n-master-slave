@@ -55,7 +55,7 @@ Flush privileges;
 - Sau đó ta tìm tiếp 2 dòng là `server-id=2 và `log_bin=/var/log/mysql/mysql-bin.log` và bỏ # ở trước đi
 - Sau khi thiết lập xong thì chúng ta lưu lại rồi sử dụng lệnh `sudo systemctl restart mysql` để khởi động lại mysql
 - Tiếp theo vào mysql bằng `myslq -u root -p`
-- Dùng lệnh `stop slave` để dừng slave
+- Dùng lệnh `stop slave;` để dừng slave
 - Sau đó cấu hình các câu lệnh:
 ```
 CHANGE MASTER TO
@@ -65,7 +65,7 @@ CHANGE MASTER TO
 	MASTER_LOG_FILE='mysql-bin.000009',
 	MASTER_LOG_POS=1386;
 ```
-- Sau đó chúng ta `start slave` là xong.
+- Sau đó chúng ta `start slave;` là xong.
 - Kiểm tra trạng thái slave bằng lệnh `show slave status\G`
 - Chú ý 3 dòng:
 ```
