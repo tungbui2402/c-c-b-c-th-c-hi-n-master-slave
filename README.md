@@ -18,10 +18,11 @@ Sau đó nhập mật khẩu mình cần đặt rồi y liên tục là xong.
 - Thoát khỏi mysql_secure_installation bằng cách dùng phím ctrl + z
 - Sau đấy ta dùng ` sudo mysql -u root -p` ( dòng mật khẩu ấn enter là được)
 - Sau đấy ta nhập theo thứ tự:
-`use mysql;
+ 
+`use mysql;`
 
-update user set plugin='mysql_native_password' where user='root';
+`update user set plugin='mysql_native_password' where user='root';`
 
-flush privileges;
+`flush privileges;`
 
-exit;`
+`exit;``
