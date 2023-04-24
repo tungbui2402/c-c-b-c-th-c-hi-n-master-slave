@@ -84,7 +84,7 @@ Chúng ta cần thêm mật khẩu vào tài khoản trên ở máy slave
 
 - Sau khi đăng nhập vào root xong thì chúng ta tiến hành đặt mật khẩu bằng lệnh:
 
-` alter view 'tung1'@'%' identified by 'newpassword';`
+` alter user 'tung1'@'%' identified by 'newpassword';`
 
 - Sau khi thành công thì chúng ta đã có thể đăng nhập tài khoản truy cập ở slave rồi.
 ## Test
