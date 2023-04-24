@@ -31,7 +31,7 @@ Sau đấy thì chúng ta quay lại mysql_secure_installation rồi nhập mậ
 - Sau đó ta tìm đến dòng `bind-address=127.0.0.1` rồi thay đổi thông số về 0.0.0.0
 - Sau đó ta tìm tiếp 2 dòng là `server-id=1` và `log_bin=/var/log/mysql/mysql-bin.log` và bỏ # ở trước đi
 - Sau khi thiết lập xong thì chúng ta lưu lại rồi sử dụng lệnh `sudo systemctl restart mysql` để khởi động lại mysql
-- Tiếp theo vào mysql bằng `myslq -u root -p`
+- Tiếp theo vào mysql bằng `mysql -u root -p`
 - Tạo 1 tài khoản truy cập:
 `create user 'tung1'@'%' identified by 'Tung_2402';`
 - Cấp quyền cho tài khoản vừa tạo:
