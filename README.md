@@ -55,7 +55,7 @@ Flush privileges;
 - Sau đó ta tìm đến dòng `bind-address=127.0.0.1` rồi thay đổi thông số về 0.0.0.0
 - Sau đó ta tìm tiếp 2 dòng là `server-id=2 và `log_bin=/var/log/mysql/mysql-bin.log` và bỏ # ở trước đi
 - Sau khi thiết lập xong thì chúng ta lưu lại rồi sử dụng lệnh `sudo systemctl restart mysql` để khởi động lại mysql
-- Tiếp theo vào mysql bằng `myslq -u root -p`
+- Tiếp theo vào mysql bằng `mysql -u root -p`
 - Dùng lệnh `stop slave;` để dừng slave
 - Sau đó cấu hình các câu lệnh:
 ```
